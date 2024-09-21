@@ -144,7 +144,8 @@ export function PlayersList(){
 </div>
 <div className="container">
     <div className="row">
-        <div className="col-md-12" style={{ textAlign:"center", }}><button className="btn btn-primary border rounded-pill" type="button" style={{ textAlign:"center", background:"rgb(18,253,13)", color:"rgb(210,6,6)", fontWeight:"bold", }}>Next</button></div>
+        <div className="col-md-12" style={{ textAlign:"center", }}><button className="btn btn-primary border rounded-pill" type="button" style={{ textAlign:"center", background:"rgb(18,253,13)", color:"rgb(210,6,6)", fontWeight:"bold", }}>Start
+            </button></div>
     </div>
 </div>
     
