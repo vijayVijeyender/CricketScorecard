@@ -10,6 +10,9 @@ import { Product } from './Pages/Product.page';
 import { Result } from './Pages/Result.page';
 import { Scorecard } from './Pages/Scorecard.page';
 import { Players } from './Pages/Players.page';
+import { New_Entry } from './Pages/New_Entry';
+import { Schedule } from './Pages/Schedule';
+import { PlayersList } from './Pages/PlayersList';
 
 function App() {
   return (
@@ -24,6 +27,9 @@ function App() {
   <Route path="/Result" element={<Result />} />
   <Route path="/Scorecard" element={<Scorecard />} />
   <Route path="/Players" element={<Players />} />
+  <Route path="/New_Entry" element={<New_Entry />} />
+  <Route path="/schedule" element={<Schedule />} />
+  <Route path="/playersList" element={<PlayersList />} />
 
   </Routes>
  
